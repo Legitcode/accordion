@@ -35,6 +35,15 @@ export default class Component extends React.component {
 }
 ```
 
+If you'd like to override the HTML that is displayed on the closed accordion
+you can use the `labelHTML` prop:
+
+```js
+<AccordionItem name='Item 1' labelHTML={<span>Item 1</span>}>
+  <p>This is an accordion item with a fancy label</p>
+</AccordionItem>
+```
+
 That's it! The caveat here is that the open and close animations depend on the 
 `max-height` property, which is by default set to 500px. If your content is going
 to be taller than that, you can override this:

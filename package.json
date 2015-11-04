@@ -1,6 +1,6 @@
 {
   "name": "legit-accordion",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A simple React accordion component based on Thoughtbots Refills accordion",
   "main": "lib/legit-accordion.js",
   "scripts": {
