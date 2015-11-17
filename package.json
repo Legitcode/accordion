@@ -1,6 +1,6 @@
 {
   "name": "legit-accordion",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A simple React accordion component based on Thoughtbots Refills accordion",
   "main": "lib/legit-accordion.js",
   "scripts": {
@@ -41,7 +41,7 @@
     "webpack": "^1.12.1",
     "webpack-dev-server": "^1.10.1"
   },
-  "dependencies": {
+  "peerDependencies": {
     "react": "^0.13.3"
   }
 }
